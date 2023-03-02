@@ -11,7 +11,7 @@ public:
         int lastindex = -1;
         vector<int>v(n1+n2, 0);
 
-        while(i < n1 && j < n2){
+        while(i < n1 && j < n2){    
             if(nums1[i] <= nums2[j])
                 v[++lastindex] = nums1[i++];
             else

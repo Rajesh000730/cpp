@@ -1,4 +1,4 @@
-#hint: insert elements from the unsorted portion to the sorted portion
+// hint: insert elements from the unsorted portion to the sorted portion
 
 #include<bits/stdc++.h>
 
@@ -10,7 +10,7 @@ void InsertionSort(vector<int> &arr){
   for(int i = 1; i < n; i++){
       // storing arr[i] to current element
       current = arr[i];
-      j = i-1;
+      int j = i-1;
       // comparing if arr[j] is greater than current until j is greater than 0
       while(j > 0 && arr[j] > current){
          // copy arr[j + 1] to arr[j]
@@ -21,7 +21,7 @@ void InsertionSort(vector<int> &arr){
       arr[j + 1] = current;
   }
 
-#printing the array
+// #printing the array
 for(auto x : arr){
     cout << x << " ";
 }

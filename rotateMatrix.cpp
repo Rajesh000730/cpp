@@ -3,6 +3,7 @@
 using namespace std;
 
 void rotateMatrix(vector<vector<int>> &matrix){
+   int n = matrix.size();
    for(int i = 0; i < n; i++){
       for(int j = i + 1; j < n; j++ ){
           int temp = matrix[i][j];

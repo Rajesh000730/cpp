@@ -3,6 +3,7 @@
 using namespace std;
 
 void merge(int low, int mid, int high, vector<int> &nums){
+        // return if low is greater than or equal to high 
         if(low >= high) return;
         int l = low, r = mid+1, k = 0, size = high - low + 1;
         vector<int>sorted(size, 0);

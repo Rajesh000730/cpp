@@ -8,6 +8,7 @@ public:
         int n = nums.size();
         int l = n-1;
         vector<int>ans;
+        //sort the array initially
         sort(nums.begin(), nums.end());
         for (int i = 0; i < n;i++){
             if(nums[i]+nums[l] == target){

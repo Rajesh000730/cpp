@@ -1,4 +1,4 @@
-#hint: move smaller elements to the front in each iteration
+//hint: move smaller elements to the front in each iteration
 
 #include<bits/stdc++.h>
 

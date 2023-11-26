@@ -32,7 +32,7 @@ public:
             }
             if(flag==1)reverse(temp.begin(), temp.end());
             ans.push_back(temp);
-            flag = flag==0?1:0;
+            flag = !flag;
         }
         return ans;
     }

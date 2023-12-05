@@ -4,11 +4,10 @@ using namespace std;
 
 int nonrepeatingnumber(vector<int>v){
     int xor_op = v[0];
-    
-    for(int i = 1; i < v.size();i++) xor_op ^= v[i];
-    
+    int n = v.size();
+    for(int i = 1; i < n;i++) 
+      xor_op ^= v[i];
     return xor_op;
-
 }
 
 int main(){

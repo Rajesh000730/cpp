@@ -3,6 +3,7 @@
 using namespace std;
 
 int countSetBits(int n){
+    
     int count = 0;
     while(n){
         ++count;
@@ -13,6 +14,7 @@ int countSetBits(int n){
 }
 
 int main(){
+    
     int ans;
     int qn = 9;
     ans = countSetBits(qn);
